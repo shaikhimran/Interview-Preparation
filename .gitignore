@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Hashing-Dictionary/.vs/Hashing-Dictionary.slnx
+/Hashing-Dictionary/bin/Debug/net10.0
+/Hashing-Dictionary/obj
