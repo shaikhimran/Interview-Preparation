@@ -1,0 +1,72 @@
+# HashSet<T> - Quick Revision Notes
+
+## What is HashSet?
+
+HashSet<T> is a collection that stores unique values and provides very fast lookup operations using a hash table internally.
+
+---
+
+## Why Use HashSet?
+
+1. Prevent duplicates automatically.
+2. Fast Contains() lookup.
+3. Efficient set operations.
+4. Ideal for large collections.
+
+---
+
+## Time Complexity
+
+| Operation | Complexity   |
+| --------- | ------------ |
+| Add       | O(1) Average |
+| Remove    | O(1) Average |
+| Contains  | O(1) Average |
+
+---
+
+## Example
+HashSet<int> ids = new();
+
+ids.Add(10);
+ids.Add(20);
+ids.Add(30);
+
+bool exists = ids.Contains(20);
+---
+
+## Reading Data
+
+foreach(var id in ids)
+{
+    Console.WriteLine(id);
+}
+
+HashSet does not support indexing.
+
+---
+
+## Common Real-World Uses
+
+### Remove Duplicates
+### Fast Filtering
+### Track Processed Records
+
+
+## HashSet vs List
+
+| Feature      | List    | HashSet     |
+| ------------ | ------- | ----------- |
+| Duplicates   | Allowed | Not Allowed |
+| Contains()   | O(n)    | O(1)        |
+| Index Access | Yes     | No          |
+
+---
+
+## HashSet vs Dictionary
+
+HashSet stores only values.
+Dictionary stores key-value pairs.
+
+
+
